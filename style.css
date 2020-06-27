@@ -1,0 +1,64 @@
+.main
+{
+    border: none;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.787);
+    );
+}
+
+
+.result
+{
+    width: 96%;
+    height: 50px;
+}
+
+
+
+
+.clearBtn
+{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(158, 157, 157, 0.87);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 400px;
+}
+
+
+
+
+.btn{
+    background-color: hotpink;
+    width: 45px;
+    margin: 1px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 400px;
+    color: white;
+}
+
+
+
+
+.halfBtn{
+    background-color: rgba(172, 255, 47, 0.5);
+    width:45px; 
+    margin: 1px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 400px;
+    color: white;
+}
+
+
+
+.colorbBTn
+{
+    background-color: orange;
+    border: none;
+    color: white;
+}
