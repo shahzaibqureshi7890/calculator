@@ -55,12 +55,42 @@ function clearResult()
 }
 
 
+
+
+
+
+function clearOne()
+{
+
+    var result=document.getElementById("result");
+
+    result.value=result.value.slice(0,-1);   
+    
+}
+
+
+
+
 function getResult()
 {
 
     var result=document.getElementById("result");
 
+    if(result.value=="")
+    {
+
+        result.style.backgroundColor='';
+
+
+        alert("Insert Equation");
+   
+
+    }
+    else{
     result.style.backgroundColor='red';
 
     result.value=eval(result.value);
+    }
+
+
 }
